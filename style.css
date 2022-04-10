@@ -83,3 +83,28 @@ body {font-family: Verdana, sans-serif; margin:0}
 .mySlides {display: none}
 img {vertical-align: middle;}
 
+.emoji-drawer {
+
+	text-align: center;
+
+    display: grid;
+
+    grid-template-columns: repeat(3, 1fr);
+
+    width: 100px;
+
+    margin-bottom: 32px;
+}
+
+.emoji {
+    text-align:center;
+    font-size: 24px;
+    padding: 8px;
+}
+
+.emoji:hover {
+	text-align: center;
+
+    cursor: pointer;
+}
+

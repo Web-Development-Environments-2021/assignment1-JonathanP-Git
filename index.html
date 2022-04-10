@@ -81,8 +81,19 @@ src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v13.0"
 <section id="contact" class="section">
   <h1>Contact Me</h1>
     <div class="centered">
-      <a href="mailto:yonman2@gmail.com?subject=Testing out mailto!&body=This is only a test!">Second Example</a>
-    </div>
+      <script type="text/javascript" src="functions.js"></script>
+      
+        <div class="emoji-drawer"> 
+          <div class="emoji" onclick="addEmoji(this.innerHTML)">😀</div>
+          <div class="emoji" onclick="addEmoji(this.innerHTML)">😃</div>
+          <div class="emoji" onclick="addEmoji(this.innerHTML)">😄</div>
+          <div class="emoji" onclick="addEmoji(this.innerHTML)">😁</div>
+          <div class="emoji" onclick="addEmoji(this.innerHTML)">😆</div>
+        </div>
+        <input type="text" id="input"/>
+        <button onclick="SendMail()">Send
+        </button>
+</div>
 </section>
 
 
